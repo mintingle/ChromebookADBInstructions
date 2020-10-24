@@ -12,7 +12,29 @@ But don't worry! There is a way to sideload your APK onto your Chromebook throug
 
 ## Step 1: Make sure you have Linux (Beta) installed and ADB enabled
 
-Please go through Step 1 of the [running ADB on Chromebook guide](adb_on_chromebook.md) to make sure you have Linux (Beta) with ADB debugging enabled. This step is required for sideloading.
+Now we need to make sure you have Linux turned on with the right settings for Android development. Tap or click the bottom right corner of your Chromebook where it displays the time to pull up the options and settings menu:
+
+![Open MIT App Inventor](adb_screenshots/Step-1-0.png)
+
+There should be a gear icon that you can tap on to access the settings. Once you do so, the full Settings menu will be displayed in a window. 
+
+![Open MIT App Inventor](adb_screenshots/Step-1-1.png)
+
+In Settings, tap or click the three horizontal lines in the top left corner to bring up the expanded menu for Settings. A side menu should pop out from the left side of the window. You should see a penguin icon and **Linux (Beta)** near the bottom of this menu:
+
+![Open MIT App Inventor](adb_screenshots/Step-1-2.png)
+
+When you tap or click on **Linux (Beta)**, it should tell you if you have Linux enabled. In the screenshot below, it is enabled. If it's not enabled, you'll need to click "Turn On" and "Install" it, which may take a few minutes. 
+
+![Open MIT App Inventor](adb_screenshots/Step-1-3.png)
+
+Once you have made sure that Linux is installed and enabled on your Chromebook, you can tap or click the "Linux: Run Linux tools, editors, and IDEs on your Chromebook" box to see more settings. Once you've done that, you should see an expanded menu like the one below:
+
+![Open MIT App Inventor](adb_screenshots/Step-1-4.png)
+
+Tap or click on "Develop Android apps". This will show you whether or not ADB debugging is enabled. If the switch is gray/disabled, you'll need to enable it. This will trigger your Chromebook to restart. Once ADB debugging has been enabled, it should look like this:
+
+![Open MIT App Inventor](adb_screenshots/Step-1-5.png)
 
 ## Step 2: Switch Chrome OS from the Stable channel to the Developer channel
 
