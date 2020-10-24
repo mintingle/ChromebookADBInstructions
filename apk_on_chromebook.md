@@ -40,7 +40,7 @@ Tap or click on "Develop Android apps". This will show you whether or not ADB de
 
 ## Step 2: Switch Chrome OS from the Stable channel to the Developer channel
 
-You will need to switch from the default Chrome OS channel to the Developer channel -- note that this is **not** the same as turning on Developer Mode and resetting your Chromebook. The Developer channel just gives you some not-yet-released features and updates that may be buggy.
+You will also need to switch from the default Chrome OS channel to the Developer channel -- note that this is **not** the same as turning on Developer Mode and resetting your Chromebook. The Developer channel just gives you some not-yet-released features and updates that may be buggy.
 
 First, open Settings on your Chromebook (if you can't find Settings, look at Step 1 again, which walks through how to get there). Then, tap the hamburger/three-horizontal-line menu in the top left corner to open the expanded menu.
 
