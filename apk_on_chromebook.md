@@ -8,11 +8,13 @@ If you go into where you downloaded the APK and try to double-click/double-tap t
 
 ![Open MIT App Inventor](apk_screenshots/Step-0-2.png)
 
-But don't worry! There is a way to sideload your APK onto your Chromebook through Linux without turning on Developer Mode using Linux.
+But don't worry! There is a way to sideload your APK onto your Chromebook through Linux without turning on Developer Mode.
 
 ## Step 1: Make sure you have Linux (Beta) installed and ADB enabled
 
-Now we need to make sure you have Linux turned on with the right settings for Android development. Tap or click the bottom right corner of your Chromebook where it displays the time to pull up the options and settings menu:
+These instructions are copied from Step 1 of the [ADB installation instructions](adb_on_chromebook.md):
+
+We need to make sure you have Linux turned on with the right settings for Android development. Tap or click the bottom right corner of your Chromebook where it displays the time to pull up the options and settings menu:
 
 ![Open MIT App Inventor](adb_screenshots/Step-1-0.png)
 
@@ -24,7 +26,7 @@ In Settings, tap or click the three horizontal lines in the top left corner to b
 
 ![Open MIT App Inventor](adb_screenshots/Step-1-2.png)
 
-When you tap or click on **Linux (Beta)**, it should tell you if you have Linux enabled. In the screenshot below, it is enabled. If it's not enabled, you'll need to click "Turn On" and "Install" it, which may take a few minutes. 
+When you tap or click on **Linux (Beta)**, it should tell you if you have Linux enabled. In the screenshot below, it is enabled. If it's not enabled, you'll need to click "Turn On", and then "Install" it, which may take a few minutes. 
 
 ![Open MIT App Inventor](adb_screenshots/Step-1-3.png)
 
