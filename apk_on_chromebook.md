@@ -2,7 +2,7 @@
 
 Say you have an APK, either created by you or someone else. This guide will go through how to do that without having to turn on Developer Mode.
 
-## Step 0: Building your MIT App Inventor app and downloading the APK
+## Step 0: Downloading the APK onto your Chromebook
 
 If you go into where you downloaded the APK and try to double-click/double-tap the APK file to open it, you may see the following message:
 
