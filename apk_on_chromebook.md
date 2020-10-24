@@ -1,16 +1,8 @@
 ## How to download and run an APK from MIT App Inventor on a Chromebook (without turning on Developer Mode)
 
-Say you've created an app on MIT App Inventor, maybe you've tested it out with the MIT AI2 Companion on the Chromebook's emulator, and now you are ready to download the APK onto your Chromebook to use at any time! This guide will go through how to do that without having to turn on Developer Mode.
+Say you have an APK, either created by you or someone else. This guide will go through how to do that without having to turn on Developer Mode.
 
 ## Step 0: Building your MIT App Inventor app and downloading the APK
-
-You can build your app on your Chromebook and download the APK as you would normally. Once you are satisfied with your app, go to the top menu bar and click "Build". Then, select "App (Save .apk to my computer)". 
-
-![Open MIT App Inventor](apk_screenshots/Step-0-0.png)
-
-It may take a minute for your app to build, and a loading bar should show on your screen during this time. Once it's done building, it should ask you where to download the APK (in this screenshot, we are just downloading into the Downloads folder):
-
-![Open MIT App Inventor](apk_screenshots/Step-0-1.png)
 
 If you go into where you downloaded the APK and try to double-click/double-tap the APK file to open it, you may see the following message:
 
