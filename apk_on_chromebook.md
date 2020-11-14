@@ -1,10 +1,10 @@
-## How to download and run an APK from MIT App Inventor on a Chromebook (without turning on Developer Mode)
-
-Say you have an APK, either created by you or someone else. This guide will go through how to do that without having to turn on Developer Mode.
+# How to download and run an APK from MIT App Inventor on a Chromebook (without turning on Developer Mode)
 
 ## Step 0: Downloading the APK onto your Chromebook
 
-If you go into where you downloaded the APK and try to double-click/double-tap the APK file to open it, you may see the following message:
+Say you have an App Inventor APK, either created by you or someone else. This guide will go through how to run that APK on a Chromebook without having to turn on Developer Mode. 
+
+After you download the APK file onto your Chromebook, if you try to open the APK, you may see the following message:
 
 ![Open MIT App Inventor](apk_screenshots/Step-0-2.png)
 
@@ -26,29 +26,10 @@ Once you have made sure that Linux is installed and enabled on your Chromebook, 
 
 Tap or click on "Develop Android apps". This will show you whether or not ADB debugging is enabled. If the switch is gray/disabled, you'll need to enable it. This will trigger your Chromebook to restart. Once ADB debugging has been enabled, the switch should be on and blue.
 
-## Step 2: Switch Chrome OS from the Stable channel to the Developer channel
 
-You will also need to switch from the default Chrome OS channel to the Developer channel -- note that this is **not** the same as turning on Developer Mode and resetting your Chromebook. The Developer channel just gives you some not-yet-released features and updates that may be buggy.
+## Step 2: Sideload your APK
 
-First, open Settings on your Chromebook (if you can't find Settings, look at Step 1 again, which walks through how to get there). Then, tap the hamburger/three-horizontal-line menu in the top left corner to open the expanded menu.
-
-![Open MIT App Inventor](apk_screenshots/Step-2-0.png)
-
-Tap or click the "About Chrome OS" item at the bottom of the expanded menu. This should open up information about your version of the operating system:
-
-![Open MIT App Inventor](apk_screenshots/Step-2-1.png)
-
-Now, tap or click "Additional details":
-
-![Open MIT App Inventor](apk_screenshots/Step-2-2.png)
-
-The channel that you are currently on will be listed in the first row. Here, the Chromebook is already on the developer channel, but if it doesn't say "dev", tap or click the "Change channel" button. You can select the "Developer - unstable" channel, which will start a download process that may take a few minutes. After the download is complete, you will need to restart the Chromebook to get all of the updates.
-
-![Open MIT App Inventor](apk_screenshots/Step-2-3.png)
-
-## Step 3: Sideload your APK
-
-After you've made sure that Linux is set up and your Chrome OS is on the dev channel, you are ready to sideload your APK. First, open the Linux terminal. You can find the Linux terminal by tapping or swiping up from the bottom bar on your Chromebook and typing "Linux" in the Launcher. If you are unable to open the Linux terminal, refer to Step 2 of the [running ADB on Chromebook guide](adb_on_chromebook.md). The terminal should open and look like this:
+After you've made sure that Linux is set up, you are ready to sideload your APK. First, open the Linux terminal. You can find the Linux terminal by tapping or swiping up from the bottom bar on your Chromebook and typing "Linux" in the Launcher. The terminal should open and look like this:
 
 ![Open MIT App Inventor](apk_screenshots/Step-3-0.png)
 
